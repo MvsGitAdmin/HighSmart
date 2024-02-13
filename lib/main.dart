@@ -1,6 +1,5 @@
 import 'package:deneme/presentation/homescreen.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_unity_widget/flutter_unity_widget.dart';
 
 void main() => runApp(const MyApp());
 
@@ -16,6 +15,7 @@ class _MyAppState extends State<MyApp> {
   static final GlobalKey<ScaffoldState> _scaffoldKey =
   GlobalKey<ScaffoldState>();
 
+
   @override
   void initState() {
     super.initState();
@@ -28,3 +28,4 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
+// main
